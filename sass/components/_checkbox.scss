@@ -23,7 +23,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox:checked + .checkbox__icon .checkbox__icon-checked {
+&__input:checked+&__icon &__icon-checked {
     opacity: 1;
 }
 

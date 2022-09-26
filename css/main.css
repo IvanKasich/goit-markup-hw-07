@@ -905,7 +905,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox .checkbox:checked + .checkbox__icon .checkbox__icon-checked {
+.checkbox__input:checked + .checkbox__icon .checkbox__icon-checked {
   opacity: 1;
 }
 .checkbox__icon {

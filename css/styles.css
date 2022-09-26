@@ -748,7 +748,7 @@ address {
 .registration__label:focus-within .registration__comment {
   border-color: var(--secondary-text-color);
 } */
-.checkbox {
+/* .checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -788,7 +788,7 @@ address {
 }
 .checkbox__link {
   color: var(--secondary-text-color);
-}
+} */
 /* .registration__btn {
   display: block;
   padding: 10px 52px;
