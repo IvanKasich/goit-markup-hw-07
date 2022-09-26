@@ -1,0 +1,16 @@
+.address {
+    margin-right: 70px;
+    flex-grow: 1;
+
+&__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+&__map {
+    color: var(--secondary-title-text-color);
+}
+
+&__contacts {
+    color: var(--address-text-color);
+}
+}

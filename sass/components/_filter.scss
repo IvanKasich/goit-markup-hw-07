@@ -1,0 +1,25 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+
+&__item:not(:last-child) {
+    margin-right: 8px;
+}
+
+&__btn--light-theme {
+    padding: 7px 23px;
+
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--team-section-background-color);
+    box-shadow: none;
+}
+
+&__btn--wide {
+    padding: 7px 26px;
+}
+}
