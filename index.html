@@ -650,67 +650,67 @@
     </footer>
      <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button data-modal-close type="button" class="modal-close">
-              <svg class="modal-close-icon" width="18" height="18">
+            <button data-modal-close type="button" class="modal__close-btn">
+              <svg class="modal__close-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-close-modal"></use>
               </svg>
             </button>
 
-            <form class="form-registration" name="registration" autocomplete="off">
-              <strong class="strong">Залиште свої дані, ми вам передзвонимо</strong>
-              <label class="registration-label">
-                <span class="registration-label-heading">Ім'я</span>
+            <form class="registration" name="registration" autocomplete="off">
+              <strong class="registration__heading">Залиште свої дані, ми вам передзвонимо</strong>
+              <label class="registration__label">
+                <span class="registration__title">Ім'я</span>
                 <input
-                  class="registration-input"
+                  class="registration__input"
                   type="text"
                   required
                   name="registration-name"
                 />
-                <svg class="registration-icon" width="18" height="18">
+                <svg class="registration__icon" width="18" height="18">
                   <use href="./images/icons.svg#icon-name"></use>
                 </svg>
               </label>
-              <label class="registration-label">
-                <span class="registration-label-heading">Телефон</span>
+              <label class="registration__label">
+                <span class="registration__title">Телефон</span>
                 <input
-                  class="registration-input"
+                  class="registration__input"
                   type="tel"
                   required
                   name="registration-phone"
                 />
-                <svg class="registration-icon" width="18" height="18">
+                <svg class="registration__icon" width="18" height="18">
                   <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
               </label>
-              <label class="registration-label">
-                <span class="registration-label-heading">Пошта</span>
+              <label class="registration__label">
+                <span class="registration__title">Пошта</span>
                 <input
-                  class="registration-input"
+                  class="registration__input"
                   type="email"
                   required
                   name="registration-email"
                 />
-                <svg class="registration-icon" width="18" height="18">
+                <svg class="registration__icon" width="18" height="18">
                   <use href="./images/icons.svg#icon-email"></use>
                 </svg>
               </label>
-              <label class="registration-label comment">
-                <span class="registration-label-heading">Коментар</span>
-                <textarea class="registration-comment" name="registration-comment" rows="7" placeholder="Введіть текст"></textarea>
+              <label class="registration__label comment">
+                <span class="registration__title">Коментар</span>
+                <textarea class="registration__comment" name="registration-comment" rows="7" placeholder="Введіть текст"></textarea>
               </label>
 
-              <label class="registration-checkbox">
+              <label class="registration__checkbox">
                 <input class="checkbox" type="checkbox" name="registration-checkbox" required>
-                <svg class="checkbox-icon" width="15" height="16">
+                <svg class="checkbox__icon" width="15" height="16">
                   
-                  <use class="icon-unchecked" href="./images/icons.svg#icon-unchecked"></use>
-                  <use class="icon-checked" href="./images/icons.svg#icon-checked"></use>
+                  <use class="checkbox__icon-unchecked" href="./images/icons.svg#icon-unchecked"></use>
+                  <use class="checkbox__icon-checked" href="./images/icons.svg#icon-checked"></use>
                 </svg>
-                <span class="registration-checkbox-text">Погоджуюся з розсилкою та приймаю
-                   <a class="link-checkbox" href="#" target="_blank" rel="noreferrer noopener nofollow"> Умови договору</a> 
+                <span class="checkbox__text">Погоджуюся з розсилкою та приймаю
+                   <a class="checkbox__link" href="#" target="_blank" rel="noreferrer noopener nofollow"> Умови договору</a> 
                 </span>
               </label>
-              <button class="registration-btn" type="submit">Відправити</button>
+              <button class="registration__btn btn" type="submit">Відправити</button>
             </form>
           </div>
     <script src="./js/modal.js"></script>
