@@ -1,7 +1,8 @@
 .works {
     display: flex;
+}
 
-&__description {
+.works__description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,12 +23,11 @@
     background-color: var(--what-are-we-desription-bgc);
 }
 
-&__item {
+.works__item {
     display: block;
     position: relative;
-}
 
-&__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
 }
 }

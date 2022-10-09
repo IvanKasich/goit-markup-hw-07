@@ -2,24 +2,21 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--footer-background-color);
+}
 
-&__container {
+.footer__container {
     display: flex;
     align-items: baseline;
 }
 
-&__logo {
+.footer__logo {
     display: inline-block;
     margin-bottom: 20px;
 
     color: var(--secondary-title-text-color);
 }
 
-&__logo--white {
-    color: var(--secondary-text-color);
-}
-
-&__title {
+.footer__title {
     display: block;
     margin-bottom: 20px;
 
@@ -32,7 +29,6 @@
     color: var(--secondary-title-text-color);
 }
 
-&__socials {
+.footer__socials {
     margin-right: 93px;
-}
 }

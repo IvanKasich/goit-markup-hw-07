@@ -2,13 +2,13 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+}
 
-
-&__item:not(:last-child) {
+.filter__item:not(:last-child) {
     margin-right: 8px;
 }
 
-&__btn--light-theme {
+.filter__btn--light-theme {
     padding: 7px 23px;
 
     font-weight: 500;
@@ -19,7 +19,6 @@
     box-shadow: none;
 }
 
-&__btn--wide {
+.filter__btn--wide {
     padding: 7px 26px;
-}
 }

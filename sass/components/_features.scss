@@ -1,11 +1,15 @@
 .features {
     display: flex;
-
-&__item {
+}
+.features__item {
     width: calc((100% - 30px * 3) / 4);
+
+&:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-&__icon {
+.features__iconbox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,11 +19,9 @@
     border-radius: 4px;
 }
 
-&__item:not(:last-child) {
-    margin-right: 30px;
-}
 
-&__heading {
+
+.features__heading {
     margin-bottom: 10px;
 
     font-weight: 700;
@@ -28,5 +30,4 @@
     text-transform: uppercase;
 
     color: var(--title-text-color);
-}
 }

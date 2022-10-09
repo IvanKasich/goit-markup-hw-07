@@ -12,9 +12,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
 
-
-&__title {
+.hero__title {
     margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
@@ -30,7 +30,6 @@
     color: var(--secondary-title-text-color);
 }
 
-&__btn {
+.hero__btn {
     padding: 10px 32px;
-}
 }
